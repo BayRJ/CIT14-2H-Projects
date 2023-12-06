@@ -1,0 +1,14 @@
+.container {
+  background-color: red;
+  border: 5px solid green;
+  margin: auto;
+  padding: 20px;
+}
+
+.content {
+  background-color: yellow;
+  border: 20px solid black;
+  width: 200px;
+  height: 200px;  
+  margin: auto;
+}

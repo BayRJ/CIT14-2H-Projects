@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.container div {
+  background-color: lightblue;
+  display: grid;
+  place-items: center;
+}
+
+.container .shoe-details {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 5px;
+  color: gray;
+}
+
+.container button {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.container img {
+  margin-top: 10px;
+  height: 252px;
+  width: 252px;
+}
+.container .shoe-name {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  text-align: center;
+}
